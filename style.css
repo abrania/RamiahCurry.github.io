@@ -39,9 +39,7 @@ nav ul {
     display: flex; /* Use flexbox to ensure horizontal alignment */
     justify-content: center; /* Center the nav items */
     width: 100%;
-    position: absolute;
-    bottom: 0;
-    left: 0;
+    /* Remove position: absolute to prevent the nav bar from being fixed at the bottom */
 }
 
 nav ul li {
@@ -59,4 +57,8 @@ nav ul li a {
 /* Change the link color to #111 (black) on hover */
 nav ul li a:hover {
     background-color: #111;
+}
+
+main {
+    padding: 2em;
 }
