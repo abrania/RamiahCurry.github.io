@@ -9,7 +9,7 @@ body {
 header {
     text-align: center;
     padding: 1em;
-    background-color: #333;
+    background-color: #940000;
     color: white;
 }
 
@@ -22,7 +22,7 @@ nav ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #940000;
     display: flex; /* Use flexbox to ensure horizontal alignment */
     justify-content: center; /* Center the nav items */
 }
