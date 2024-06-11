@@ -45,11 +45,11 @@ nav ul li a:hover {
 }
 
 .image-container {
-    width: 50%; /* or any width you prefer */
+    width: 10%; /* or any width you prefer */
 }
 
 .responsive-image {
-    max-width: 100%;
+    max-width: 50%;
     height: auto;
 }
 
