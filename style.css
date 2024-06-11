@@ -1,4 +1,4 @@
-/* css/styles.css */
+/* css/style.css */
 
 body {
     font-family: Arial, sans-serif;
@@ -7,14 +7,30 @@ body {
 }
 
 header {
-    text-align: center;
-    padding: 1em;
     background-color: #f3f3ea;
-    color: white;
+    color: black;
+    padding: 1em;
+    text-align: center;
 }
 
-header h1 {
-    margin: 0;
+.header-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em; /* Optional: adds space between images */
+    margin-top: 1em; /* Optional: adds space between header text and images */
+}
+
+.responsive-image {
+    max-height: 100px; /* Adjust this value based on your design */
+    height: auto;
+    width: auto;
 }
 
 nav ul {
@@ -43,13 +59,3 @@ nav ul li a {
 nav ul li a:hover {
     background-color: #111;
 }
-
-.image-container {
-    width: 10%; /* or any width you prefer */
-}
-
-.responsive-image {
-    max-width: 50%;
-    height: auto;
-}
-
