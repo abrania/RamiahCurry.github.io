@@ -24,6 +24,20 @@ header h1 {
     gap: 1em; /* Optional: adds space between images */
 }
 
+.image-container-2 {
+    display: flex;
+    gap: 1em; /* Optional: adds space between images */
+}
+
+.image-container-2 img {
+    padding: 2px;
+    gap: 1em;
+    width: 50%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+}
+
 .responsive-image {
     max-height: 100px; /* Adjust this value based on your design */
     height: auto;
